@@ -9,7 +9,7 @@ for (const image of images) {
         imagePreview.setAttribute("alt", image.getAttribute("alt"))
         setTimeout(() => {
             imagePreview.classList.add("show-img-preview")
-        }, 0)
+        })
     })
 }
 
