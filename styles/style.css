@@ -21,18 +21,6 @@
     margin-top: 30rem;
 }
 
-.standard-section-margin-top {
-    margin-top: 8rem;
-}
-
-.small-section-margin-top {
-    margin-top: 7.5rem;
-}
-
-.standard-section-margin-bottom {
-    margin-bottom: 5rem;
-}
-
 .parallax-container {
     position: relative;
     height: 500px;
@@ -142,16 +130,6 @@
     transform: translateX(-50%);
 }
 
-@media only screen and (max-width: 1200px) {
-    .standard-section-margin-top {
-        margin-top: 7.5rem;
-    }
-
-    .standard-section-margin-bottom {
-        margin-bottom: 7.5rem;
-    }
-}
-
 @media only screen and (max-width: 992px) {
     .carosuel-image {
         height: 28.125rem;
@@ -163,14 +141,6 @@
 
     .large-section-margin-top {
         margin-top: 25.5rem;
-    }
-
-    .standard-section-margin-top {
-        margin-top: 4rem;
-    }
-
-    .standard-section-margin-bottom {
-        margin-bottom: 5rem;
     }
 
     .gallery-img-container,
