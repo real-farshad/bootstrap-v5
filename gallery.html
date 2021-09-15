@@ -10,14 +10,17 @@
             crossorigin="anonymous"
         />
         <link rel="stylesheet" href="styles/style.css" />
-        <title>Fictional Adventures</title>
+        <title>Awaken</title>
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+            <div class="w-100 pt-5">
+                <div class="w-100 pt-2"></div>
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
                 <div class="container">
                     <a class="navbar-brand" href="#">
-                        <span class="navbar-brand mb-0 h1">Fictional Adventures</span>
+                        <span class="navbar-brand mb-0 h1">Awaken</span>
                     </a>
                     <button
                         class="navbar-toggler"
@@ -55,17 +58,31 @@
                     <div class="row px-3 px-lg-0 flex-row-reverse flex-lg-row">
                         <ul class="col-6 col-lg-12 nav flex-column">
                             <li class="nav-item mb-3"><b>Popular</b></li>
-                            <li class="nav-item mb-2">Favorites</li>
-                            <li class="nav-item mb-2">Best selling</li>
+                            <li class="nav-item mb-2">
+                                <a href="#" class="link-dark text-decoration-none">Favorites</a>
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a href="#" class="link-dark text-decoration-none">Best selling</a>
+                            </li>
                             <li class="nav-item mb-5">Indie</li>
                         </ul>
                         <ul class="col-6 col-lg-12 nav flex-column">
                             <li class="nav-item mb-3"><b>recommended</b></li>
-                            <li class="nav-item mb-2">Action</li>
-                            <li class="nav-item mb-2">Horror</li>
-                            <li class="nav-item mb-2">Adventure</li>
-                            <li class="nav-item mb-2">Survivor</li>
-                            <li class="nav-item mb-2">Story</li>
+                            <li class="nav-item mb-2">
+                                <a href="#" class="link-dark text-decoration-none">Action</a>
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a href="#" class="link-dark text-decoration-none">Horror</a>
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a href="#" class="link-dark text-decoration-none">Adventure</a>
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a href="#" class="link-dark text-decoration-none">Survivor</a>
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a href="#" class="link-dark text-decoration-none">Story</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -172,8 +189,10 @@
         </main>
 
         <footer class="pt-3 pt-lg-5">
-            <div class="overflow-hidden parallax-container">
-                <div class="w-100 h-100 parallax-image" style="background-image: url('./images/footer.jpg')"></div>
+            <div class="overflow-hidden footer-container">
+                <div class="w-100 h-100 footer-image">
+                    <img class="img-fluid cover-img" src="./images/footer.jpg" />
+                </div>
                 <div class="position-absolute w-100 text-white text-center parallax-text">
                     <h2 class="display-6 d-none d-lg-block pb-2">A Project Made With Passion</h2>
                     <p class="lead opacity-75 px-5 px-lg-0">Designed And Developed By Mohammad Reza</p>

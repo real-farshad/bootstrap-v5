@@ -10,14 +10,14 @@
             crossorigin="anonymous"
         />
         <link rel="stylesheet" href="styles/style.css" />
-        <title>Fictional Adventures</title>
+        <title>Awaken</title>
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-4 animate">
                 <div class="container">
                     <a class="navbar-brand" href="#">
-                        <span class="navbar-brand mb-0 h1">Fictional Adventures</span>
+                        <span class="navbar-brand mb-0 h1">Awaken</span>
                     </a>
                     <button
                         class="navbar-toggler"
@@ -48,24 +48,24 @@
                     </div>
                 </div>
             </nav>
-            <div class="position-absolute absolute-header-bg w-100">
-                <img class="cover-img" src="images/contact/header.jpg" class="img-fluid" alt="Header background" />
+            <div class="w-100 contact-header-bg">
+                <img src="images/contact/header.jpg" class="img-fluid cover-img" alt="Header background" />
             </div>
         </header>
-        <main class="container">
-            <section class="large-section-margin-top standard-section-margin-bottom">
+        <main class="container pb-5">
+            <section class="contact-section">
                 <div class="row">
                     <div class="col-lg-4 d-none d-lg-block">
-                        <img src="images/contact/contact.jpg" class="img-fluid border border-white" alt="Contact" />
+                        <img src="images/contact/contact.jpg" class="img-fluid rounded shadow" alt="Contact" />
                     </div>
                     <div class="col-lg-8 ps-lg-5">
-                        <h1 class="display-4 text-light pb-5">Your opinion matters</h1>
+                        <h1 class="display-4 text-light pb-4">Your opinion matters</h1>
                         <div class="ps-lg-5">
-                            <p class="lead pb-4 pb-lg-5">
+                            <p class="h4 fw-light text-light opacity-75 pb-4 pb-lg-5">
                                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, atque beatae? Nesciunt reprehenderit,
                                 eaque quaerat quae error molestias asperiores! Animi.
                             </p>
-                            <div class="pe-lg-5">
+                            <div class="pt-4 pe-lg-5">
                                 <p class="pe-4 pe-lg-0 mb-4">
                                     Adipisicing elit. Soluta optio fugit quis, quos, autem consequuntur error dicta ex nobis eaque quidem
                                     atque. Exercitationem quis, autem est quam hic dolores inventore. Lorem ipsum, dolor sit amet
@@ -115,8 +115,10 @@
             </div>
         </main>
         <footer class="pt-lg-5">
-            <div class="overflow-hidden parallax-container">
-                <div class="w-100 h-100 parallax-image" style="background-image: url('./images/footer.jpg')"></div>
+            <div class="overflow-hidden footer-container">
+                <div class="w-100 h-100 footer-image">
+                    <img class="img-fluid cover-img" src="./images/footer.jpg" />
+                </div>
                 <div class="position-absolute w-100 text-white text-center parallax-text">
                     <h2 class="display-6 d-none d-lg-block pb-2">A Project Made With Passion</h2>
                     <p class="lead opacity-75 px-5 px-lg-0">Designed And Developed By Mohammad Reza</p>
@@ -129,6 +131,7 @@
             integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
             crossorigin="anonymous"
         ></script>
+        <script src="/js/navbar.js"></script>
         <script src="/js/contact.js"></script>
     </body>
 </html>

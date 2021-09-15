@@ -1,5 +1,14 @@
-.carosuel-image {
-    height: 42.188rem;
+.animate {
+    transition: 0.25s;
+}
+
+.carousel-image {
+    height: 45.5rem;
+    filter: brightness(0.7);
+}
+
+.carousel-caption {
+    height: fit-content;
 }
 
 .cover-img {
@@ -8,22 +17,18 @@
     object-fit: cover;
 }
 
-.absolute-header-bg {
-    height: 36rem;
-    z-index: -1;
-}
-
-.absolute-header-bg img {
-    filter: brightness(0.5);
-}
-
-.large-section-margin-top {
-    margin-top: 30rem;
-}
-
 .parallax-container {
     position: relative;
-    height: 500px;
+    height: 450px;
+}
+
+.footer-container {
+    position: relative;
+    height: 650px;
+}
+
+.footer-image {
+    filter: brightness(0.6);
 }
 
 .parallax-image {
@@ -36,6 +41,16 @@
 
 .parallax-text {
     bottom: 3rem;
+}
+
+.contact-header-bg {
+    height: 700px;
+    filter: brightness(0.6);
+}
+
+.contact-section {
+    position: relative;
+    margin-top: -14rem;
 }
 
 .gallery-img-container,
@@ -71,6 +86,7 @@
 
 .overlay {
     position: fixed;
+    z-index: 9999;
 }
 
 .overlay-bg {
@@ -131,16 +147,12 @@
 }
 
 @media only screen and (max-width: 992px) {
-    .carosuel-image {
-        height: 28.125rem;
+    .carousel-image {
+        height: 600px;
     }
 
-    .absolute-header-bg {
-        height: 30rem;
-    }
-
-    .large-section-margin-top {
-        margin-top: 25.5rem;
+    .footer-container {
+        height: 555px;
     }
 
     .gallery-img-container,
