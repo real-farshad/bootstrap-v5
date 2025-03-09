@@ -1,20 +1,15 @@
 # Bootstrap v5 template
 
-Live demo at: [bootstrap-v5.vercel.app](https://bootstrap-v5.vercel.app)
+[Live Demo](https://bootstrap-v5.vercel.app) • This was a project required by cs50 problem set 8, but i decided to dive in a little more and make a bootstrap v5 project. There are four pages in this web app: Home, Contact, Gallery and Upcoming.
 
-This was a project required by cs50 problem set 8, but i decided to dive in a little more and make a bootstrap v5 project.
+Home page has your typical landing page structure. I also added some javascript for a nice UI effect when the user starts scrolling. Contact page has an interactive form and when you submit your information a bootstrap modal pops up and shows your email address and message. You can look through a bunch of images in gallery page and click on each one to view it in full size. Upcoming page is the one that I wrote the most javascript for. It's a timer that counts down the hours, minutes and seconds remaining until next year. I also implemented custom UI and animations for the countdown.
 
-There are four pages in this template:
+## Screenshots
 
-    - Home
-    - Contact
-    - gallery
-    - Upcomming
+![Feature 1 Demo](images/screenshots/1.jpg)
 
-For homepage I tried to make something that represents a normal blog's homepage. the navbar has some custom js on it for the scrolling effect.
+![Feature 2 Demo](images/screenshots/2.jpg)
 
-In contact page the contact form is interactive and if you submit your form a bootstrap modal will be shown with your email address and message.
+![Feature 3 Demo](images/screenshots/3.jpg)
 
-For gallery page you can click on each image to see the full size image. i could have used thumbnail images, but since my main focus was bootstrap and preview feature with custom js, I didn't really bother with that.
-
-Upcomming page is the most custom page. it has a timer that counts down the hours, minutes and seconds remaning until next year. also with custom animations for the countdown.
+![Feature 4 Demo](images/screenshots/4.jpg)
